@@ -9,7 +9,6 @@ import gql from "graphql-tag";
 import { useQuery } from "@apollo/react-hooks";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import AddMessage from "./AddMessage";
-import { height } from "@material-ui/system";
 
 const GET_SELECTED_ROOM_ID = gql`
   {
