@@ -1,7 +1,7 @@
 {
-  "name": "apollo-client",
+  "name": "apollo-client-react-hooks",
   "version": "1.0.0",
-  "description": "",
+  "description": "Apollo GraphQL Client for Create React App using new react-hooks.",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
@@ -28,5 +28,8 @@
     "test": "react-scripts test --env=jsdom",
     "build": "react-scripts build",
     "eject": "react-scripts eject"
-  }
+  },
+  "repository": "https://github.com/flavioespinoza/apollo-client-react-hooks.git",
+  "author": "flavioespinoza <flavio.espinoza@gmail.com>",
+  "license": "MIT"
 }
