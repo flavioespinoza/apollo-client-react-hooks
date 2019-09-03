@@ -1,13 +1,20 @@
 {
   "name": "apollo-client-react-hooks",
   "version": "1.0.0",
-  "description": "Apollo GraphQL Client for Create React App using new react-hooks.",
+  "description": "Apollo GraphQL Client for Create-React-App using new React-Hooks.",
   "keywords": [],
   "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test --env=jsdom",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@apollo/react-hooks": "3.0.1",
     "@apollo/react-testing": "3.0.1",
     "@material-ui/core": "4.4.0",
+    "@material-ui/icons": "^4.2.1",
     "apollo-cache-inmemory": "1.6.3",
     "apollo-client": "2.6.4",
     "apollo-link": "1.2.12",
@@ -23,13 +30,14 @@
     "waait": "1.0.5"
   },
   "devDependencies": {},
-  "scripts": {
-    "start": "react-scripts start",
-    "test": "react-scripts test --env=jsdom",
-    "build": "react-scripts build",
-    "eject": "react-scripts eject"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flavioespinoza/apollo-client-react-hooks.git"
   },
-  "repository": "https://github.com/flavioespinoza/apollo-client-react-hooks.git",
   "author": "flavioespinoza <flavio.espinoza@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flavioespinoza/apollo-client-react-hooks/issues"
+  },
+  "homepage": "https://github.com/flavioespinoza/apollo-client-react-hooks#readme"
 }
